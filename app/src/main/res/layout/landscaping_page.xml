@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        app:srcCompat="@drawable/domestic_and_gardening_classes" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald_variablefont_wght"
+        android:text="Landscaping"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="Fees: R1500" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="Purpose: To provide landscaping services for new and established gardens" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="Content:" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="• Indigenous and exotic plants and trees" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="• Fixed structures (fountains, statues, benches, tables, built-in braai) " />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="• Balancing of plants and trees in a garden " />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="• Aesthetics of plant shapes and colours" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="• Garden layout" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="#4A00BCD4"
+            android:text="Home"
+            android:textColor="#BA000000" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4A00BCD4"
+            android:text="back"
+            android:textColor="#BA000000" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#4A00BCD4"
+        android:text="Home"
+        android:textColor="#BA000000" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4A00BCD4"
+        android:text="back"
+        android:textColor="#BA000000" />
+</LinearLayout>
